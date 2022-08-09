@@ -6,3 +6,41 @@ Green: #00B172
 White: #FFF
 
 */
+
+html {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+}
+
+.header img {
+  display: flex;
+  justify-content: flex-start;
+  height: 50px;
+  margin: 10px 10px 10px 20px;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  width: 600px;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu li {
+  margin-left: 10px;
+  margin-right: 20px;
+}
